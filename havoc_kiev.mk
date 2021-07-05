@@ -21,11 +21,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from kiev device
 $(call inherit-product, device/motorola/kiev/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Havoc stuff.
+$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_kiev
+PRODUCT_NAME := havoc_kiev
 PRODUCT_DEVICE := kiev
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := moto g 5G

@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_kiev.mk
+    $(LOCAL_DIR)/havoc_kiev.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_kiev-eng \
-    lineage_kiev-user \
-    lineage_kiev-userdebug
+    havoc_kiev-eng \
+    havoc_kiev-user \
+    havoc_kiev-userdebug
